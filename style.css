@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #E85A00, #FF9A1F 50%, #E85A00);
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 8%;
+    width: 100%;
+    display: flex;
+}
+
+.left-side-logo {
+    display: flex;
+    height: 100%;
+    width: 15%;
+}
+
+.right-side {
+    display: flex;
+}
+
+.right-side-text {
+    height: 20%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 850px;
+    gap: 30px;
+    margin-right: -20px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.order {
+    display: flex;
+    margin-top: 12px;
+    height: 40px;
+    margin-left: 140px;
+    background-color: white;
+    padding: 7px 10px;
+    border: 10px;
+    border-radius: 60px;
+}
+
+.order h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.order img {
+    display: flex;
+    overflow: hidden;
+    margin-right: 13px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    margin-top: 30px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 10px;
+    border-radius: 60px;
+}
+
+.custom {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 10px;
+    border-radius: 60px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    position: relative;
+    height: 60%;
+}
+
+.text {
+    color: white;
+    margin-top: 80px;
+    margin-right: 60px;
+}
+
+.text h1 {
+    font-family: sans-serif;
+    letter-spacing: -2px;
+    line-height: 55px;
+    padding: 30px 30px;
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.text p {
+    padding: 0px 40px;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.shoe-box {
+    position: relative;
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shoe-div {
+    position: absolute;
+    top: 120%;
+    left: 13%;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoe-dive img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.shoe-box h1 {
+    position: absolute;
+    font-size: 350px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -18px;
+    margin-top: 180px;
+    margin-right: 200px;
+    color: white;
+}
+
+.color-palette {
+    margin-top: 120px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.color-palette h2 {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 22px;
+    color: white;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.color {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+.blue {
+    background: #3cc5d0;
+}
+
+.orange {
+    background: #f56a00;
+    border: 2px solid white;
+}
+
+.red {
+    background: #f4003d;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.number {
+    width: 58px;
+    height: 58px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+    position: relative;
+}
+
+.right-icons {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 30px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.middle-footer {
+    display:flex;
+    justify-content: center;
+    position:absolute;
+    margin-top: 60px;
+    left: 45%;
+    color:white;
+}
+.middle-footer{
+    font-size: 14px;
+    font-weight: 100;
+}
+.slash{
+    display: flex;
+    position:absolute;
+    top: -40%;
+    left: -95%;
+}
+.slash1{
+    display: flex;
+    position:absolute;
+    top: -40%;
+    left: 120%;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 230px;
+    align-items: center;
+    background-color: white;
+    border: 1px ;
+    border-radius: 130px;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-right: 40px;
+}
+.products img{
+    width: 14%;
+    height: 40px;
+    margin-left: 10px;
+}
